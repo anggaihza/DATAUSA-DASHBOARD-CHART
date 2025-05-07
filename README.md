@@ -1,21 +1,40 @@
-Getting Started
-Prerequisites
+# Getting Started
 
-Node.js (v16 or higher)
-npm or yarn
+This is a starter project using [Vite](https://vitejs.dev/) with [React](https://reactjs.org/).
 
-Installation
+## 🚀 Quick Start
 
-Clone the repository:
-bashgit clone https://github.com/yourusername/census-data-visualization.git
-cd census-data-visualization
+### 1. Create the project
 
-Install dependencies:
-bashnpm install
+```
+npm create vite@latest my-vite-react-app -- --template react
 # or
-yarn install
+yarn create vite my-vite-react-app --template react
+# or
+pnpm create vite my-vite-react-app --template react
+```
 
-Start the development server:
-bashnpm run dev
+### 2. Navigate into the project directory
+
+```
+cd my-vite-react-app
+```
+
+### 3. Install dependencies
+
+```
+npm install
+# or
+yarn
+# or
+pnpm install
+```
+
+### 4. Start the development server
+
+```
+npm run dev
 # or
 yarn dev
+# or
+pnpm dev
