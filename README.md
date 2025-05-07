@@ -1,12 +1,21 @@
-# React + Vite
+Getting Started
+Prerequisites
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Node.js (v16 or higher)
+npm or yarn
 
-Currently, two official plugins are available:
+Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the repository:
+bashgit clone https://github.com/yourusername/census-data-visualization.git
+cd census-data-visualization
 
-## Expanding the ESLint configuration
+Install dependencies:
+bashnpm install
+# or
+yarn install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Start the development server:
+bashnpm run dev
+# or
+yarn dev
